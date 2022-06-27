@@ -1,0 +1,86 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* to remove any margin or padding comes by default  */
+}
+.left img{
+    width: 32px;
+    height: 23px;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+    /* just for knowlege we can have shdaow in boxes using css  */
+    position: sticky;
+    top: 0;
+    background-color: white;
+    font-weight: bolder;
+    height: 66px;
+}
+nav{
+    padding: 0 120px;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.container{
+    max-width: 80vw;
+    /* display: flex; */
+    /* background-color: red; */
+    /* margin: 13px 0; */
+    padding: 0 10vw;
+}
+nav ul li{
+    list-style: none;
+    /* to remove dots  */
+    padding: 0 12px;
+}
+.search{
+    border-radius: 2px;
+    border: 0.5px solid grey;
+    width: 34vw;
+    padding: 7px 17px;
+    background-color: #f7f8fd;
+}
+.s1{
+    background-color: rgb(231, 229, 229);
+}
+.homeing{
+    width: 80vw;
+    padding: 12px 0;
+}
+.homeing2{
+    width: 10vw;
+    padding: 12px 0;
+    margin: 6px 12px;
+}
+footer{
+    margin: 12px 0;
+   padding: 23px;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* zoom in on mouse hover (using zoom class in img tags) */
+.zoom{
+    transition:transform .2000s;
+}
+.zoom:hover{
+    -ms-transform:scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.4);
+}
+table{
+    margin-top: 20px;
+}
+td{
+    width: 200px;
+}
+.play-store{
+    height: 42px;
+    margin-right: 10px;
+}
+.container2{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    max-width: 80vw;
+    padding: 0 10vw;
+}

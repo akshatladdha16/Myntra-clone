@@ -1,0 +1,27 @@
+.flex{
+    display:flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+    /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally). */
+}
+.space-btw{
+    justify-content: space-between;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibold{
+    font-weight: bolder;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px; 
+}
+.flex-wrap{
+    flex-wrap: wrap;
+
+}
